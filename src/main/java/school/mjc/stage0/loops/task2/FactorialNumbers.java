@@ -9,6 +9,6 @@ public class FactorialNumbers {
             ++count;
             factorial *= count;
         }
-        System.out.println("current heap size: "+Runtime.getRuntime().totalMemory());
+        //System.out.println("current heap size: "+Runtime.getRuntime().totalMemory());
     }
 }

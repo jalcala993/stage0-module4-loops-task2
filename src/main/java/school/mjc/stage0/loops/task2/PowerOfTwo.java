@@ -12,6 +12,6 @@ public class PowerOfTwo {
                 ++count;
             }
         }
-
+        System.out.println("current heap size: "+Runtime.getRuntime().totalMemory());
     }
 }

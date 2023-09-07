@@ -7,7 +7,7 @@ public class EvenNumbersPrinter {
             System.out.println(count);
             count += 2;
         }
-        //System.out.println("Max heap size: "+Runtime.getRuntime().maxMemory());
-        //System.out.println("current heap size: "+Runtime.getRuntime().totalMemory());
+        System.out.println("Max heap size: "+Runtime.getRuntime().maxMemory());
+        System.out.println("current heap size: "+Runtime.getRuntime().totalMemory());
     }
 }
